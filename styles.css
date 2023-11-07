@@ -1,3 +1,151 @@
-:root{
-    --pc: #C271FF;
-}
+@font-face {
+    font-family: 'holberton_school-icon';
+    src:  url('./holberton_school-icon.eot?sq4eq4');
+    src:  url('./holberton_school-icon.eot?sq4eq4#iefix') format('embedded-opentype'),
+      url('./holberton_school-icon.ttf?sq4eq4') format('truetype'),
+      url('./holberton_school-icon.woff?sq4eq4') format('woff'),
+      url('./holberton_school-icon.svg?sq4eq4#holberton_school-icon') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: block;
+  }
+  
+  :root {
+      --pc: #C271FF;
+  }
+  
+  body,
+  button,
+  a {
+      font-family: 'Source Sans Pro', sans-serif !important;
+  }
+  
+  button:hover, button:active {
+      opacity: 0.9 !important;
+  }
+  
+  button:focus {
+      outline: none;
+  }
+  
+  a:hover, a:active, a.text-primary:hover {
+      color: var(--pc) !important;
+  }
+  
+  .underline::after {
+      content: '';
+      background-color: white;
+      display: block;
+      width: 50px;
+      height: 2px;
+      border-radius: 999px;
+      position: absolute;
+      left: 50%;
+      right: 50%;
+      transform: translateX(-50%);
+  }
+  
+  .bg-primary {
+      background-color: var(--pc) !important;
+  }
+  
+  .bg-dark {
+      background-color: #071629 !important;
+  }
+  
+  .text-primary {
+      color: var(--pc) !important;
+  }
+  
+  .text-dark {
+      color: #071629 !important;
+  }
+  
+  .btn-primary {
+      font-size: 14px !important;
+      background-color: var(--pc) !important;
+      width: 164px !important;
+      height: 44px !important;
+      border: 0;
+      border-radius: 999px !important;
+      box-shadow: 0 2px 20px 0 hsl(0, 0%, 0%, 0.5) !important;
+  }
+  
+  .coiny-font-family {
+      font-family: 'Coiny', cursive;
+  }
+  
+  .op-30 {
+      opacity: 0.3;
+  }
+  
+  .navbar-toggler-icon::before {
+      content: '';
+      background-color: white !important;
+      display: block !important;
+      width: 20px !important;
+      height: 2px !important;
+      border-radius: 999px !important;
+      position: absolute;
+      top: 5px;
+  }
+  
+  .navbar-toggler-icon {
+      background-color: white !important;
+      display: block !important;
+      width: 13px !important;
+      height: 2px !important;
+      border-radius: 999px !important;
+      position: relative;
+  }
+  
+  .navbar-toggler-icon::after {
+      content: '';
+      background-color: white !important;
+      display: block !important;
+      width: 20px !important;
+      height: 2px !important;
+      border-radius: 999px !important;
+      position: absolute;
+      bottom: 5px;
+  }
+  
+  .homepage-h1 {
+      font-size: clamp(61px, 17vw,120px);
+  }
+  
+  .pricing-h1-fz {
+      font-size: 60px;
+  }
+  
+  .hero-subtitle {
+      width: 254px;
+  }
+  
+  .hero-p {
+      font-size: 32px;
+      margin-top: 168px;
+  }
+  
+  .fz {
+      font-size: 15px;
+  }
+  
+  .price-hero-fz {
+      font-size: 32px;
+  }
+  
+  .rounded-circle {
+      border-radius: 50%;
+  }
+  
+  .hero-name, .price-row-fz {
+      font-size: 18px !important;
+  }
+  
+  .hero-img {
+    background-image: url('./images/pic_1.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
