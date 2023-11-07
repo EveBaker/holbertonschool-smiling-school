@@ -147,5 +147,5 @@
     background-image: url('./images/pic_1.jpg');
     background-size: cover;
     background-repeat: no-repeat;
-    background-position: center;
+    background-position: absolute;
   }
