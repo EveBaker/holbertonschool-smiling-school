@@ -151,6 +151,13 @@
     background-position: center;
   }
 
+  .hero-img {
+    background-image: url('./images/pic_2.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+
   .carousel-quote-fz {
     font-size: 22px;
 }
