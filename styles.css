@@ -161,3 +161,31 @@
 .white-right-arrow {
     background-image: url(./images/arrow_white_right.png);
 }
+
+.left-arrow, .right-arrow {
+    width: 29.04px;
+    height: 62.67px;
+}
+
+.play-btn {
+    inset: 0;
+    cursor: pointer;
+}
+
+.card-text, .faq-p {
+    font-size: 14px;
+    opacity: 0.5;
+}
+
+.star-size {
+    width: 15px;
+    height: 15px;
+}
+
+.left-black-arrow {
+    background-image: url(./images/arrow_black_left.png);
+}
+
+.right-black-arrow {
+    background-image: url(./images/arrow_black_right.png);
+}
