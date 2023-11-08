@@ -149,3 +149,15 @@
     background-repeat: no-repeat;
     background-position: center;
   }
+
+  .carousel-quote-fz {
+    font-size: 22px;
+}
+
+.white-left-arrow {
+    background-image: url(./images/arrow_white_left.png);
+}
+
+.white-right-arrow {
+    background-image: url(./images/arrow_white_right.png);
+}
