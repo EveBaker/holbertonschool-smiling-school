@@ -158,6 +158,10 @@
     background-position: center;
   }
 
+  .check {
+    background-image: url("./images/Check.png");
+    background-repeat: no-repeat;
+  }
   .carousel-quote-fz {
     font-size: 22px;
 }
