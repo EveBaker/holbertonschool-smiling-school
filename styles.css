@@ -211,7 +211,6 @@
 }
 
 .facebook::before, .twitter::before, .instagram::before {
-    font-family: 'holberton_school-icon';
     font-size: 30px;
     position: absolute;
     top: 50%;
@@ -251,7 +250,6 @@
 .search-icon::before {
     content: "\e912";
     font-size: 20px;
-    font-family: 'holberton_school-icon';
 }
 
 .form-control::placeholder {
