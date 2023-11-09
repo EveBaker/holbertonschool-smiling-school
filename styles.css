@@ -162,6 +162,8 @@
     background-image: url("./images/Check.png");
     background-repeat: no-repeat;
   }
+
+
   .carousel-quote-fz {
     font-size: 22px;
 }
@@ -238,13 +240,6 @@
 
 .mw-sm-90 {
     max-width: 90%;
-}
-
-.check::before {
-    content: "\e905";
-    font-family: 'holberton_school-icon';
-    font-size: 28px;
-    color: #82D24F;
 }
 
 .label-fz {
