@@ -158,6 +158,13 @@
     background-position: center;
   }
 
+  .hero-img3 {
+    background-image: url('./images/pic_3.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+
   .check {
     background-image: url("./images/Check.png");
     background-repeat: no-repeat;
@@ -208,6 +215,7 @@
 .footer-nav {
     width: 130px;
 }
+
 
 .facebook, .twitter, .instagram{
     line-height: 0;
